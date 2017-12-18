@@ -1,5 +1,3 @@
-// let Game = require('./game.js');
-
 let newGame = new Game();
 
 let reset = function(){

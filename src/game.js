@@ -1,5 +1,3 @@
-// const Player = require('./player.js');
-
 let Game = function(){
   this.players = [];
   this.allMoves = [];
@@ -38,5 +36,3 @@ Game.prototype = {
     return this.allMoves.includes(position);
   }
 }
-
-// module.exports = Game
